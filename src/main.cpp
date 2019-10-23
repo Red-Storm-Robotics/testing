@@ -26,7 +26,7 @@ void on_center_button() {
 */
 void initialize() {
     pros::lcd::initialize();
-    pros::lcd::set_text(1, "Hello 344X Member!");
+    pros::lcd::set_text(1, "Helloo 344X Member!");
     pros::lcd::register_btn1_cb(on_center_button);
 }
 
